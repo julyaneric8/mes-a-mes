@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mês a Mês</title>
+
+<link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+<header>
+<h1>Mês a Mês</h1>
+</header>
+
+<main>
+
+<section class="formulario">
+
+<label>Orçamento do mês</label>
+<input type="number" id="orcamento" placeholder="Ex: 500">
+
+<label>Nome do Produto</label>
+<input type="text" id="produto" placeholder="Ex: Arroz">
+
+<label>Quantidade</label>
+<input type="number" id="quantidade" placeholder="Ex: 2">
+
+<label>Preço Unitário</label>
+<input type="number" id="preco" step="0.01" placeholder="Ex: 5.50">
+
+<button onclick="adicionarItem()">Adicionar Item</button>
+
+</section>
+
+<section class="lista">
+
+<h2>Lista de Compras</h2>
+
+<div id="lista"></div>
+
+</section>
+
+<section class="total">
+
+<h2 id="total">Total: R$ 0</h2>
+
+</section>
+
+<section class="acoes">
+
+<button onclick="limparLista()">Limpar Tudo</button>
+
+</section>
+
+</main>
+
+<script src="app.js"></script>
+
+</body>
+</html><!-- index.html, por exemplo -->
+<!doctype html>
+<html lang="pt‑br">
+<head>
+    <meta charset="utf-8">
+    <title>Meu site</title>
+    <link rel="stylesheet" href="style.css">   <!-- caminho relativo correto -->
+</head>
+<body>
+    …
+</body>
+</html>
